@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(230, 230, 230);
+}
+
+.controls{
+  margin: 0 auto;
+  width: 60%;
+}
+
+.graph_div{
+  margin: 0 auto;
+  background-color: red;
+  width: 600px;
+  border: 1px solid #000;
+  height: 200px;
+  display: flex;
+}
+
+.graph_element{
+  width: 33.33%;
+  height: 100%;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: center;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  -webkit-transition: width 0.3s; /* Safari */
+  transition: width 0.3s;
+}
+
+#versicolor{
+  background-color: rgba(255, 212, 196, 0.4);
+}
+
+#virginica{
+  background-color: rgba(106, 57, 255, 0.4);
+}
+
+#setosa{
+  background-color: rgba(255, 181, 226, 0.6);
+}
